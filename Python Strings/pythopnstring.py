@@ -42,3 +42,13 @@ print(a.replace("H", "J"))
 The split() method splits the string into substrings if it finds instances of the separator:"""
 
 print(a.split(",")) # returns ['Hello', ' World!']
+
+"""
+Commandline  Strinvg input
+python allows for command line input
+The  following example asks for thr user's name, then , by using the input()
+methon th progam printin the name to the screen 
+"""
+print("Enter your name:")
+x = input()
+print("Hello, ", x)
